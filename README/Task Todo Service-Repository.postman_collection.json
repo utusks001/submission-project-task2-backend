@@ -12,7 +12,7 @@
 				{
 					"name": "Show Tasks",
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [],
 						"url": {
 							"raw": "http://localhost:8001/task/show_tasks",
@@ -61,7 +61,7 @@
 				{
 					"name": "Update Task",
 					"request": {
-						"method": "POST",
+						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -90,7 +90,7 @@
 				{
 					"name": "Assign Task",
 					"request": {
-						"method": "POST",
+						"method": "PATCH",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -119,7 +119,7 @@
 				{
 					"name": "Unassign Task",
 					"request": {
-						"method": "POST",
+						"method": "PATCH",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -148,7 +148,7 @@
 				{
 					"name": "Create SubTask",
 					"request": {
-						"method": "POST",
+						"method": "PATCH",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -177,7 +177,7 @@
 				{
 					"name": "Delete Subtask",
 					"request": {
-						"method": "POST",
+						"method": "PATCH",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -206,7 +206,7 @@
 				{
 					"name": "Delete Task",
 					"request": {
-						"method": "POST",
+						"method": "DELETE",
 						"header": [],
 						"body": {
 							"mode": "raw",
