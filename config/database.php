@@ -16,7 +16,7 @@ return [
     */
 
         // 'default' => env('DB_CONNECTION', 'mysql'),
-        'default' => env('DB_CONNECTION_MONGODB', 'mongodb'),
+        'default' => env('DB_CONNECTION', 'mongodb'),
         /*
         |--------------------------------------------------------------------------
         | Database Connections
@@ -37,11 +37,11 @@ return [
 
             'mongodb' => [
                 'driver' => 'mongodb',
-                'host' => env('DB_HOST_MONGODB', '127.0.0.1'),
-                'port' => env('DB_PORT_MONGODB', 27017),
-                'database' => env('DB_DATABASE_MONGODB', 'laravel'),
-                'username' => env('DB_USERNAME_MONGODB', ''),
-                'password' => env('DB_PASSWORD_MONGODB', ''),
+                'host' => env('DB_HOST', '127.0.0.1'),
+                'port' => env('DB_PORT', 27017),
+                'database' => env('DB_DATABASE', 'laravel'),
+                'username' => env('DB_USERNAME', ''),
+                'password' => env('DB_PASSWORD', ''),
                 'options' => [
                     'database' => 'admin',
                 ],
